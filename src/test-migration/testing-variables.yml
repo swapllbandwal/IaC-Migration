@@ -1,0 +1,18 @@
+# Only for use with PowerShell Implementation
+variables:
+  - name: serviceConnectionName
+    value: '<spn-name>'
+  - name: resourceGroupName
+    value: '<rg-name>'
+
+# VNet parameters
+  - name: virtualNetworkName
+    value: '<vnet-name>'
+  - name: subnetName
+    value: '<subnet-name>'
+  - name: location
+    value: '<region>'
+  - name: vnetCIDR
+    value: '<vnetCIDR>'
+  - name: subnetCIDR
+    value: '<subnetCIDR>'
